@@ -14,8 +14,9 @@ header {
 }
 
 .texth1 {
-    display: flex;
+    display: inline;
     position: relative;
+    top: 6px;
     margin-left: 45px;
     font-size: 30px;
     font-weight: bold;
@@ -24,9 +25,9 @@ header {
 }
 
 .texth2 {
-    display: flex;
-    margin-left: 200px;
-    padding-top: 0px;
+    display: inline-flex;
+    position: relative;
+    top: -5px;
     font-size: 10px;
     font-weight: bold;
     color: #777777;
