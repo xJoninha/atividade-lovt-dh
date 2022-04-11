@@ -33,6 +33,17 @@ header {
     color: #777777;
 }
 
+.button {
+    position: relative;
+    top: 3px;
+    left: 465px;
+    cursor: pointer;
+    border: 1px solid #777777;
+    border-radius: 4px;
+    width: 30px;
+    height: 20px;
+}
+
 div {
     /* background-color: red; */
     width: 608px;
