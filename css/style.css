@@ -1,55 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap');
+
+
+
 * {
-    margin: 0 auto;
+    font-family: 'Ropa Sans', sans-serif;
+    margin: 0;
     padding: 0;
+    border: 1px solid red;
 }
 
-body {
+.cabecalho {
+
 }
 
-header {
-    margin: 0 auto;
-    width: 697px;
+.container-menu {
+    display: flex;
     height: 49px;
-    box-shadow: 0px 2px 10px;
 }
 
-.texth1 {
-    display: inline;
-    position: relative;
-    top: 6px;
-    margin-left: 45px;
+.container-menu h1 {
     font-size: 30px;
     font-weight: bold;
     color: #777777;
-    padding-top: 7px;
 }
 
-.texth2 {
-    display: inline-flex;
-    position: relative;
-    top: -5px;
+.container-menu p {
     font-size: 10px;
-    font-weight: bold;
     color: #777777;
-}
-
-.button {
-    position: relative;
-    top: 3px;
-    left: 465px;
-    cursor: pointer;
-    border: 1px solid #777777;
-    border-radius: 4px;
-    width: 30px;
-    height: 20px;
-}
-
-section {
-    /* background-color: red; */
-    width: 608px;
-    height: 259px;
-}
-
-.img1 {
-    margin-top: 20px;
 }
