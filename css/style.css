@@ -88,6 +88,7 @@
 
 .container2-img1 h1 {
     color: #888888;
+    font-weight: 400;
     font-size: 25px;
     position: relative;
     left: 12px;
@@ -96,6 +97,7 @@
 .container2-img1 h2 {
     width: 56px;
     text-align: center;
+    font-weight: 400;
     font-size: 20px;
     color: white;
     background: #51D275;
@@ -121,6 +123,7 @@
 
 .container2-img2 h1 {
     color: #888888;
+    font-weight: 400;
     font-size: 25px;
     position: relative;
     left: 12px;
@@ -129,6 +132,7 @@
 .container2-img2 h2 {
     width: 56px;
     text-align: center;
+    font-weight: 400;
     font-size: 20px;
     color: white;
     background: #DC9730;
@@ -145,5 +149,12 @@
     position: absolute;
     left: 12px;
     bottom: 12px;
+}
+
+.ads {
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
