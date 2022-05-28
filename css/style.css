@@ -11,6 +11,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Ropa Sans', 'sans-serif';
+    font-weight: 100;
 }
 
 header {
@@ -195,6 +196,7 @@ main {
     display: flex;
     justify-content: center;
     margin: 0 auto 10px;
+    color: #888888;
 }
 
 .container-estilos-banners {
@@ -219,7 +221,7 @@ main {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    opacity: 0.8;
+    opacity: 0.5;
 }
 
 /* FOOTER */
@@ -254,7 +256,7 @@ main {
 .container-footer-texto_principal {
     color: #fff;
     text-align: justify;
-    width: 100vw;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -293,6 +295,10 @@ main {
         max-width: 608px;
     }
 
+    .container-footer {
+        max-height: 400px;
+    }
+
     .container-footer-box {
         max-width: 608px;
         flex-flow: row nowrap;
@@ -305,5 +311,8 @@ main {
         gap: 96px;
         flex-direction: row;
     }
-}
 
+    .container-footer-texto_principal p {
+        text-align: left;
+    }
+}
